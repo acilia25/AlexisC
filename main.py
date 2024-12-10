@@ -125,9 +125,7 @@ t.forward(50)
 t.left(90)
 t.forward(50)
 t.left(90)
-
 t.end_fill()
-
 
 
 
@@ -145,7 +143,11 @@ t.goto(0,-20)
 t.pendown()
 t.write("Lexi Cilia", font=("Courier", 30, "bold"), align="center")
 t.showturtle()
+
+
+enter = input("enter to coninue")
 t.clear()
+t.clearstamps()
 
 
 t.penup()
@@ -153,8 +155,8 @@ t.goto(0,250)
 t.write("My favorite food", font=("arial", 30, "bold"), align="center")
 
 
-turtle.addshape("tacos.gif.png")
-t.shape("tacos.gif.png")
+turtle.addshape("tacos.gif")
+t.shape("tacos.gif")
 t.goto(150,150)
 a = t.stamp()
 t.hideturtle()
@@ -162,46 +164,43 @@ t.goto(150,200)
 t.write("Tacos", font=("arial", 30, "bold"), align="center")
 
 
-turtle.addshape("strawberry.png")
-t.shape("strawberry.png")
+turtle.addshape("strawberry.gif")
+t.shape("strawberry.gif")
 t.goto(0,0)
 b = t.stamp()
 t.goto(0,50)
 t.write("Strawberry", font=("arial", 30, "bold"), align="center")
-turtle.addshape("pasta.gif")
-t.shape("pasta.gif")
-t.goto(-150,-150)
-c = t.stamp()
-t.goto(0,0)
-t.goto(-150,-100)
-t.write("Pasta", font=("arial", 30, "bold"), align="center")
+
+enter = input("enter to coninue")
 t.clear()
 t.clearstamps()
+
 t.penup()
 t.goto(0,200)
 t.write("My favorite hobbies", font=("arial", 30, "bold"), align="center")
 
 
-turtle.addshape("sleep.png")
-t.shape("sleep.png")
+turtle.addshape("sleep.gif")
+t.shape("sleep.gif")
 t.goto(150,150)
-a = t.stamp()
+d = t.stamp()
 t.hideturtle()
 
 
 
 
-turtle.addshape("dance.png")
-t.shape("dance.png")
+turtle.addshape("dance.gif")
+t.shape("dance.gif")
 t.goto(0,0)
-b = t.stamp()
+e = t.stamp()
 
 
-turtle.addshape("cheer.png")
-t.shape("cheer.png")
+turtle.addshape("cheer.gif")
+t.shape("cheer.gif")
 t.goto(-150,-150)
-c = t.stamp()
+f = t.stamp()
 t.goto(0,0)
+enter=input("enter to continue")
 t.clear()
 t.clearstamps()
 t.penup()
@@ -209,12 +208,12 @@ t.goto(0,200)
 t.write("My favorite movie", font=("arial", 30, "bold"), align="center")
 
 
-turtle.addshape("movie.png")
-t.shape("movie.png")
+turtle.addshape("movie.gif")
+t.shape("movie.gif")
 t.goto(-150,-150)
-c = t.stamp()
+g = t.stamp()
 t.goto(0,0)
-
+enter=input("enter to coninue")
 t.clear()
 t.clearstamps()
 t.penup()
@@ -224,7 +223,7 @@ t.write("My favorite sport", font=("arial", 30, "bold"), align="center")
 turtle.addshape("hockey.png")
 t.shape("hockey.png")
 t.goto(-150,-150)
-c = t.stamp()
+h = t.stamp()
 t.goto(0,0)
 
 
